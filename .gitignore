@@ -3,6 +3,7 @@ node_modules/
 /*.*
 wp-admin/
 wp-includes/
+wp-content/debug.log
 wp-content/index.php
 wp-content/plugins
 wp-content/uploads
