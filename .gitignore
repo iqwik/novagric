@@ -19,3 +19,5 @@ wp-content/themes/iqwik/version.php
 !webpack.config.js
 !postcss.config.js
 !wp-content/themes/iqwik
+!README.md
+!import.php
