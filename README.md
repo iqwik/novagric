@@ -1,15 +1,16 @@
 1. Go to https://worpress.org download and install the latest Wordpress
 2. Put all files from repo in the root's directory
 3. Go to `wp-content/themes/iqwik` and copy `version.php.EXAMPLE` (do not rename!) to `version.php` in those folder
-4. Open in browser `your-site.com/import.php`, then press `execute` button
-5. The first thing, that you should do after import, go to admin panel (`your-site.ru/admin`):
+4. Go to admin panel `Appearance -> Themes ->` choose and activate theme `iqwik`
+5. Open in browser `your-site.com/import.php`, then press `execute` button
+6. The first thing, that you should do after import, go to admin panel (`your-site.ru/admin`):
 ```
     -> Settings 
         -> Permalinks 
             -> and set up Common Settings to Custom Structure: /%category%/%postname%/ 
     and Save Changes (press button)
 ```
-6. Set up SMTP-mail, copy and paste the code below (update on yours data):
+7. Set up SMTP-mail, copy and paste the code below (update on yours data):
 ```
     // SMTP
     define( 'SMTP_USER', 'example@mail.com' );
@@ -24,7 +25,7 @@
 ```
 to `/wp-config.php` after line `define( 'WP_DEBUG', false );`
 
-Optionally (for develop):
+8. Optionally (for develop):
 ```
 yarn
 yarn upgrade
