@@ -6,7 +6,8 @@
 ```
     -> Settings 
         -> Permalinks 
-            -> and set up Common Settings to Custom Structure: /%category%/%postname%/ and Save Changes (press button)
+            -> and set up Common Settings to Custom Structure: /%category%/%postname%/ 
+    and Save Changes (press button)
 ```
 6. Set up SMTP-mail, copy and paste the code below (update on yours data):
 ```
