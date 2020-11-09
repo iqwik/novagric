@@ -1,0 +1,3 @@
+<?php
+$bundle_version = '1604845470778';
+define('BUNDLE_VERSION', $bundle_version);

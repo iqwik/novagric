@@ -1,0 +1,30 @@
+[08-Nov-2020 14:12:11 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to send_smtp_phpmailer() must be an instance of PHPMailer, instance of PHPMailer\PHPMailer\PHPMailer given, called in C:\Server\www\novagric\wp-includes\class-wp-hook.php on line 287 and defined in C:\Server\www\novagric\wp-content\themes\iqwik\functions.php:33
+Stack trace:
+#0 C:\Server\www\novagric\wp-includes\class-wp-hook.php(287): send_smtp_phpmailer(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 C:\Server\www\novagric\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Server\www\novagric\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#3 C:\Server\www\novagric\wp-includes\pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 C:\Server\www\novagric\wp-content\themes\iqwik\lib\ajax\feedback.php(22): wp_mail(Array, '\xD0\x9D\xD0\xBE\xD0\xB2\xD1\x8B\xD0\xB9 \xD0\xB7\xD0\xB0...', '\xD0\x9A\xD0\xBB\xD0\xB8\xD0\xB5\xD0\xBD\xD1\x82: d...')
+#5 C:\Server\www\novagric\wp-includes\class-wp-hook.php(287): send_feedback('')
+#6 C:\Server\www in C:\Server\www\novagric\wp-content\themes\iqwik\functions.php on line 33
+[08-Nov-2020 14:16:13 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to send_smtp_phpmailer() must be an instance of PHPMailer, instance of PHPMailer\PHPMailer\PHPMailer given, called in C:\Server\www\novagric\wp-includes\class-wp-hook.php on line 287 and defined in C:\Server\www\novagric\wp-content\themes\iqwik\functions.php:33
+Stack trace:
+#0 C:\Server\www\novagric\wp-includes\class-wp-hook.php(287): send_smtp_phpmailer(Object(PHPMailer\PHPMailer\PHPMailer))
+#1 C:\Server\www\novagric\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\Server\www\novagric\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#3 C:\Server\www\novagric\wp-includes\pluggable.php(494): do_action_ref_array('phpmailer_init', Array)
+#4 C:\Server\www\novagric\wp-content\themes\iqwik\lib\ajax\feedback.php(22): wp_mail(Array, '\xD0\x9D\xD0\xBE\xD0\xB2\xD1\x8B\xD0\xB9 \xD0\xB7\xD0\xB0...', '\xD0\x9A\xD0\xBB\xD0\xB8\xD0\xB5\xD0\xBD\xD1\x82: s...')
+#5 C:\Server\www\novagric\wp-includes\class-wp-hook.php(287): send_feedback('')
+#6 C:\Server\www in C:\Server\www\novagric\wp-content\themes\iqwik\functions.php on line 33
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Undefined offset: 0 in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 31
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'slug' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 6
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'parent' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 7
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Undefined offset: 0 in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 31
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'slug' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 6
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'parent' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 7
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Undefined offset: 0 in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 31
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'slug' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 6
+[08-Nov-2020 14:23:14 UTC] PHP Notice:  Trying to get property 'parent' of non-object in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 7
+[09-Nov-2020 08:59:59 UTC] PHP Notice:  Undefined index: name in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 73
+[09-Nov-2020 09:00:10 UTC] PHP Notice:  Undefined index: name in C:\Server\www\novagric\wp-content\themes\iqwik\lib\common\post_types\chapter\redirect.php on line 73
+[09-Nov-2020 09:00:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\Server\www\novagric\wp-admin\includes\dashboard.php on line 29
